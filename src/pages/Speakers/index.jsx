@@ -1,8 +1,9 @@
 import React from 'react'
 import './index.css'
+import Navbar from '../../component/navbar';
 function Speakers () {
   return (
-    <div>Speakers</div>
+    <div><Navbar/></div>
   )
 }
 

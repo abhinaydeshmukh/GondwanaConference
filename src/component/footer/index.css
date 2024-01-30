@@ -1,0 +1,56 @@
+.footer-container {
+    padding: 1rem; /* Add padding to the container */
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .footer-item-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .footer-list-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%; /* Take full width on smaller screens */
+  }
+  
+  .list-item {
+    padding: 0.5rem 0.2rem;
+    margin: 0;
+    flex: 1; /* Equal width for each item */
+    text-align: center; /* Center text */
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  .list-item:hover{
+    text-decoration: underline;
+
+  }
+
+  
+  .footer-copy-write {
+    margin: 0;
+    color: #fff;
+  }
+
+  .footer-copy-write p{
+   word-spacing: 0.4rem;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    .footer-item-container {
+      flex-direction: row; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center items horizontally */
+    }
+    .footer-item-container {
+        gap: 0.5rem;
+
+    }
+  }
+  

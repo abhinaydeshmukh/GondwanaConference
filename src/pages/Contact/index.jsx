@@ -1,9 +1,10 @@
 import React from 'react'
 import './index.css'
+import Navbar from '../../component/navbar';
 
 function Contact () {
   return (
-    <div>Contact</div>
+    <div><Navbar/></div>
   )
 }
 
